@@ -36,7 +36,6 @@ header{
 	padding-top: 50 px;
 	background-size: 400%;
 	animation: bg-animation 10s infinite alternate;
-	background-
 }
 @keyframes bg-animation {
 	0%{

@@ -9,11 +9,38 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 
 	<link rel="stylesheet" type="text/css" href="css/anime.css">
+				<div class="Music">
+		<h3>Listen <br> to <br>The <br> Opening</h3>
+	<img src="Logos/play.png" id="icon">
+	</div>
+
+	<audio id="Opening">
+		<source src="april-opening.mp3" type="audio/mp3">
+	</audio>
+
+<script>
+	var Opening = document.getElementById("Opening");
+	var	icon = document.getElementById("icon");
+
+	icon.onclick = function(){
+		if(Opening.paused){
+			Opening.play();
+			icon.src = "Logos/pause.png";
+		}else{
+			Opening.pause();
+			icon.src = "Logos/play.png";
+		}
+	}
+ </script>
 </head>
 <body>
+
 	
+	
+</script>
 	<!-- header element -->
 	<header>
+		<!-- The image below doesn't align with the middle text, check the css folder to fix it -->
 		<img src="img/Arima-square.png">
 		<h1>Your lie in April </h1>
 	</header>
@@ -53,10 +80,11 @@
 		
 			<h1>Your lie in April Trailer:</h1>
 
-			<iframe width="1620" height="900" src="https://www.youtube.com/embed/3aL0gDZtFbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="Video" width="1620" height="900" src="https://www.youtube.com/embed/3aL0gDZtFbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			
 			<h3>The message behind Your Lie In April:</h3>
 			<h4>The hidden message of Your Lie In April is self-sustainability. The story of Your Lie In April isn't just about Kousei and Kaori's love. It's about how Kousei learned to be his own person and not live purely for the sake of another. Kousei never thought about his future until Kaori came along</h4>
+
 	</main>
 
 	<!-- Footer element -->

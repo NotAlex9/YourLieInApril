@@ -52,6 +52,34 @@ h1,h2{
 .text{
 	background-image: linear-gradient(to right, r);
 }
+
+.Music{
+	float: right;
+	margin-right: %;
+	margin-top: 120px;
+	display: flex;
+	align-items: center;
+}
+
+/* The code below makes the main icon not align 
+with the text in the middle because of the margin-right*/
+.Music h3{
+	font-size: 30px;
+	color: #1e43f9;
+	font-weight: 50px;
+	margin-right: 10px;
+	max-width: 120px;
+	align: right;
+}
+
+#icon{
+	width: 100px;
+	cursor: pointer;
+}
+
+
+
+
 header h1{
 	color:  #ec1616;
 	text-shadow: 0 4px 20px black;
@@ -67,6 +95,9 @@ header img {
     width: 350px;
     border: 20px solid #543ff7;
     box-shadow: 0 10px 20px black;
+    display: inline-flex;
+    justify-content: center;
+    float: middle;
 }
 
 main{
@@ -81,7 +112,7 @@ main h1{
 	color: #2927da;
 }
 main img{
-	max-width: 100%;
+	max-width: 120%;
 }
 
 h2{
@@ -123,3 +154,4 @@ p.caption{
   font-style: italic;
   margin-top: 0px;
 }
+

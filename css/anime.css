@@ -49,6 +49,9 @@ h1,h2{
 	font-family: 'Suez One', serif;
 }
 
+.text{
+	background-image: linear-gradient(to right, r);
+}
 header h1{
 	color:  #ec1616;
 	text-shadow: 0 4px 20px black;

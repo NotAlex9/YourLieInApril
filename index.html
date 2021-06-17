@@ -18,6 +18,11 @@
 		<source src="april-opening.mp3" type="audio/mp3">
 	</audio>
 
+	<script>
+	var audio = document.getElementById("Opening")
+	audio.volume = 0.2;
+</script>
+
 <script>
 	var Opening = document.getElementById("Opening");
 	var	icon = document.getElementById("icon");
@@ -26,18 +31,19 @@
 		if(Opening.paused){
 			Opening.play();
 			icon.src = "Logos/pause.png";
-		}else{
+		} else {
 			Opening.pause();
 			icon.src = "Logos/play.png";
 		}
 	}
  </script>
+
+
 </head>
 <body>
 
 	
 	
-</script>
 	<!-- header element -->
 	<header>
 		<!-- The image below doesn't align with the middle text, check the css folder to fix it -->
@@ -90,7 +96,7 @@
 	<!-- Footer element -->
 	<footer>
 		<marquee behavior="scroll" direction="right" scrollamount=15>This site was created during a class.
-		 &copy; Alex</marquee>
+		 &copy; Alex </marquee>
 
 	</footer>
 	
